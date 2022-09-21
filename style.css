@@ -1,0 +1,49 @@
+@font-face {
+    font-family: digital-font;
+    src: url(digital-7.ttf);
+}
+
+body {
+    font-family: digital-font;
+}
+
+.frame {
+    background-color: rgb(226, 226, 226);
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.display {
+    background-color: rgb(31, 31, 31);
+    height: 2cm;
+    color: white;
+    font-size: 70px;
+    text-align: end;
+    padding-top: 10px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    margin-top: 10px;
+}
+
+button {
+    width: 2cm;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.zeroBtn {
+    width: 4.6cm;
+}
